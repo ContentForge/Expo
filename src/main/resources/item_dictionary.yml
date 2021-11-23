@@ -1,0 +1,1776 @@
+'7_0':
+  name: Коренная порода
+  icon: textures/blocks/bedrock
+'3_0':
+  name: Земля
+  icon: textures/blocks/dirt
+'3_1':
+  name: Грубая земля
+  icon: textures/blocks/coarse_dirt
+'2_0':
+  name: Блок травы
+  icon: textures/blocks/grass_side_carried
+'198_0':
+  name: Подзол
+  icon: textures/blocks/dirt_podzol_side
+'243_0':
+  name: Подзол
+  icon: textures/blocks/dirt_podzol_side
+'110_0':
+  name: Мицелий
+  icon: textures/blocks/mycelium_side
+'1_0':
+  name: Камень
+  icon: textures/blocks/stone
+'15_0':
+  name: Железная руда
+  icon: textures/blocks/iron_ore
+'14_0':
+  name: Золотая руда
+  icon: textures/blocks/golden_ore
+'56_0':
+  name: Алмазная руда
+  icon: textures/blocks/diamond_ore
+'21_0':
+  name: Лазуритовая руда
+  icon: textures/blocks/lapis_ore
+'73_0':
+  name: Руда красного камня
+  icon: textures/blocks/redstone_ore
+'16_0':
+  name: Угольная руда
+  icon: textures/blocks/coal_ore
+'129_0':
+  name: Изумрудная руда
+  icon: textures/blocks/emerald_ore
+'153_0':
+  name: Кварцевая руда Нижнего мира
+  icon: textures/blocks/quartz_ore
+'1_1':
+  name: Гранит
+  icon: textures/blocks/stone_granite
+'1_3':
+  name: Диорит
+  icon: textures/blocks/stone_diorite
+'1_5':
+  name: Андезит
+  icon: textures/blocks/stone_andesite
+'1_2':
+  name: Полированный гранит
+  icon: textures/blocks/stone_granite_smooth
+'1_4':
+  name: Полированный диорит
+  icon: textures/blocks/stone_diorite_smooth
+'1_6':
+  name: Полированный андезит
+  icon: textures/blocks/stone_andesite_smooth
+'12_0':
+  name: Песок
+  icon: textures/blocks/sand
+'12_1':
+  name: Красный песок
+  icon: textures/blocks/red_sand
+'81_0':
+  name: Кактус
+  icon: textures/blocks/cactus_side
+'17_0':
+  name: Дубовое бревно
+  icon: textures/blocks/log_oak
+'17_1':
+  name: Сосновое бревно
+  icon: textures/blocks/log_spruce
+'17_2':
+  name: Берёзовое бревно
+  icon: textures/blocks/log_birch
+'17_3':
+  name: Тропическое дерево
+  icon: textures/blocks/log_acacia
+'162_0':
+  name: Акациевое бревно
+  icon: textures/blocks/log_acacia
+'162_1':
+  name: Бревно темного дуба
+  icon: textures/blocks/log_big_oak
+'18_0':
+  name: Листва дуба
+  icon: textures/blocks/leaves_oak
+'18_1':
+  name: Хвоя
+  icon: textures/blocks/leaves_spruce
+'18_2':
+  name: Листва березы
+  icon: textures/blocks/leaves_birch
+'18_3':
+  name: Листва тропического дерева
+  icon: textures/blocks/leaves_jungle
+'161_0':
+  name: Листва акации
+  icon: textures/blocks/leaves_acacia
+'161_1':
+  name: Листва темного дуба
+  icon: textures/blocks/leaves_big_oak
+'6_0':
+  name: Саженец дуба
+  icon: textures/blocks/sapling_oak
+'6_1':
+  name: Саженец сосны
+  icon: textures/blocks/sapling_spruce
+'6_2':
+  name: Саженец березы
+  icon: textures/blocks/sapling_birch
+'6_3':
+  name: Саженец тропического дерева
+  icon: textures/blocks/sapling_jungle
+'6_4':
+  name: Саженец акации
+  icon: textures/blocks/sapling_acacia
+'6_5':
+  name: Сажанец темного дуба
+  icon: textures/blocks/sapling_roofed_oak
+'295_0':
+  name: Семена
+  icon: textures/items/seeds_wheat
+'361_0':
+  name: Семена тыквы
+  icon: textures/items/seeds_pumpkin
+'362_0':
+  name: Семена арбуза
+  icon: textures/items/seeds_melon
+'458_0':
+  name: Семена свеклы
+  icon: textures/items/seeds_betroot
+'296_0':
+  name: Пшеница
+  icon: textures/items/wheat
+'457_0':
+  name: Свекла
+  icon: textures/items/betroot
+'392_0':
+  name: Картофель
+  icon: textures/items/potato
+'394_0':
+  name: Ядовитый картофель
+  icon: textures/items/potato_poisonous
+'391_0':
+  name: Морковь
+  icon: textures/items/carrot
+'396_0':
+  name: Золотая морковь
+  icon: textures/items/carrot_golden
+'260_0':
+  name: Яблоко
+  icon: textures/items/apple
+'322_0':
+  name: Арбуз
+  icon: textures/items/melon
+'466_0':
+  name: Зачарованное яблоко
+  icon: textures/items/apple_golden
+'103_0':
+  name: Арбуз
+  icon: textures/blocks/melon_top
+'360_0':
+  name: Долька арбуза
+  icon: textures/items/melon
+'382_0':
+  name: Сверкающий арбуз
+  icon: textures/items/melon_speckled
+'477_0':
+  name: Сладкие ягоды
+  icon: textures/items/sweet_berries
+'86_0':
+  name: Тыква
+  icon: textures/blocks/pumpkin_side
+'65381_0':
+  name: Светильник Джека
+  icon: textures/blocks/pumpkin_face_top
+'91_0':
+  name: Светильник Джека
+  icon: textures/blocks/pumpkin_face_top
+'736_0':
+  name: Медовые соты
+  icon: textures/items/Медовые соты
+'31_2':
+  name: Папоротник
+  icon: textures/blocks/fern
+'175_3':
+  name: Раскидистый папоротник
+  icon: textures/blocks/double_plant_fern_bottom
+'31_1':
+  name: Трава
+  icon: textures/blocks/double_plant_grass_top
+'175_2':
+  name: Двойная высокая трава
+  icon: textures/blocks/double_plant_grass_bottom
+'37_0':
+  name: Одуванчик
+  icon: textures/blocks/flower_dandelion
+'38_0':
+  name: Мак
+  icon: textures/blocks/flower_rose
+'38_1':
+  name: Синяя орхидея
+  icon: textures/blocks/flower_blue_archid
+'38_2':
+  name: Лук
+  icon: textures/blocks/flower_allium
+'38_3':
+  name: Голубой василек
+  icon: textures/blocks/flower_houstonia
+'38_4':
+  name: Красный тюльпан
+  icon: textures/blocks/flower_tulip_red
+'38_5':
+  name: Оранжевый тюльпан
+  icon: textures/blocks/flower_tulip_orange
+'38_6':
+  name: Ландыш
+  icon: textures/blocks/flower_tulip_white
+'38_7':
+  name: Розовый тюльпан
+  icon: textures/blocks/flower_tulip_pink
+'38_8':
+  name: Ромашка
+  icon: textures/blocks/flower_oxeye_daisy
+'38_9':
+  name: Василек
+  icon: textures/blocks/flower_houstonia
+'38_10':
+  name: Ландыш
+  icon: textures/blocks/flower_lily_of_the_valley
+'175_0':
+  name: Подсолнух
+  icon: textures/blocks/double_plant_sunflower_front
+'175_1':
+  name: Сирень
+  icon: textures/blocks/flower_blue_orchid
+'175_4':
+  name: Розовый куст
+  icon: textures/blocks/double_plant_rose_top
+'175_5':
+  name: Пион
+  icon: textures/blocks/flower_paeonia
+'351_19':
+  name: Белый краситель
+  icon: textures/items/dye_powder_white_new
+'351_7':
+  name: Светло-серый краситель
+  icon: textures/items/dye_powder_silver
+'351_8':
+  name: Серый краситель
+  icon: textures/items/dye_powder_gray
+'351_16':
+  name: Черный краситель
+  icon: textures/items/dye_powder_black_new
+'351_17':
+  name: Коричневый краситель
+  icon: textures/items/dye_powder_brown_new
+'351_1':
+  name: Красный краситель
+  icon: textures/items/dye_powder_red
+'351_14':
+  name: Оранжевый краситель
+  icon: textures/items/dye_powder_orange
+'351_11':
+  name: Жёлтый краситель
+  icon: textures/items/dye_powder_yellow
+'351_10':
+  name: Лаймовый краситель
+  icon: textures/items/dye_powder_lime
+'351_2':
+  name: Зелёный краситель
+  icon: textures/items/dye_powder_green
+'351_6':
+  name: Бирюзовый краситель
+  icon: textures/items/dye_powder_magenta
+'351_12':
+  name: Голубой краситель
+  icon: textures/items/dye_powder_light_blue
+'351_18':
+  name: Синий краситель
+  icon: textures/items/dye_powder_blue_new
+'351_5':
+  name: Фиолетовый краситель
+  icon: textures/items/dye_powder_purple
+'351_13':
+  name: Пурпурный краситель
+  icon: textures/items/dye_powder_cyan
+'351_9':
+  name: Розовый краситель
+  icon: textures/items/dye_powder_pink
+'13_0':
+  name: Гравий
+  icon: textures/blocks/gravel
+'65526_0':
+  name: Песок
+  icon: textures/blocks/sand
+'737_0':
+  name: Бутыль с мёдом
+  icon: textures/items/Бутыль с мёдом
+'65404_0':
+  name: Блок трубчатых кораллов
+  icon: textures/blocks/coral_blue
+'65404_1':
+  name: Блок кораллов-мозговиков
+  icon: textures/blocks/coral_pink
+'65404_2':
+  name: Блок пузырчатых кораллов
+  icon: textures/blocks/coral_purple
+'65404_3':
+  name: Блок огненных кораллов
+  icon: textures/blocks/coral_red
+'65404_4':
+  name: Блок роговых кораллов
+  icon: textures/blocks/coral_yellow
+'65404_8':
+  name: Блок мёртвых трубчатых кораллов
+  icon: textures/blocks/coral_blue_dead
+'65404_9':
+  name: Блок мёртвых кораллов-мозговиков
+  icon: textures/blocks/coral_pink_dead
+'65404_10':
+  name: Блок мёртвых пузырчатых кораллов
+  icon: textures/blocks/coral_purple_dead
+'65404_11':
+  name: Блок мёртвых огненных кораллов
+  icon: textures/blocks/coral_red_dead
+'65404_12':
+  name: Блок мёртвых роговых кораллов
+  icon: textures/blocks/coral_yellow_dead
+'19_1':
+  name: Мокрая губка
+  icon: textures/blocks/sponge_wet
+'19_0':
+  name: Губка
+  icon: textures/blocks/sponge
+'433_0':
+  name: Приготовленный плод коруса
+  icon: textures/items/chorus_fruit_popped
+'432_0':
+  name: Плод коруса
+  icon: textures/blocks/chorus_plant
+'240_0':
+  name: Цветок коруса
+  icon: textures/blocks/chorus_flower
+'121_0':
+  name: Камень края
+  icon: textures/blocks/end_stone
+'372_0':
+  name: Нарост нижнего мира
+  icon: textures/blocks/nether_wart_stage_0
+'213_0':
+  name: Блок магмы
+  icon: textures/blocks/magma
+'87_0':
+  name: Камень Нижнего мира
+  icon: textures/blocks/netherrack
+'88_0':
+  name: Песок душ
+  icon: textures/blocks/soul_sand
+'49_0':
+  name: Обсидиан
+  icon: textures/blocks/obsidian
+'122_0':
+  name: Яйцо дракона
+  icon: textures/blocks/dragon_egg
+'97_0':
+  name: Заражённый камень
+  icon: textures/blocks/stone
+'97_1':
+  name: Заражённый булыжник
+  icon: textures/blocks/cobblestone
+'97_2':
+  name: Заражённый каменный кирпич
+  icon: textures/blocks/stonebrick
+'97_3':
+  name: Заражённый замшелый каменный кирпич
+  icon: textures/blocks/stonebrick_mossy
+'97_4':
+  name: Заражённый потрескавшийся каменный кирпич
+  icon: textures/blocks/stonebrick_cracked
+'52_0':
+  name: Спаунер монстров
+  icon: textures/blocks/mob_spawner
+'375_0':
+  name: Паучий глаз
+  icon: textures/items/spider_eye
+'30_0':
+  name: Паутина
+  icon: textures/blocks/web
+'352_0':
+  name: Кость
+  icon: textures/items/bone
+'367_0':
+  name: Гнилая плоть
+  icon: textures/items/rotten_flesh
+'353_0':
+  name: Сахар
+  icon: textures/items/sugar
+'338_0':
+  name: Сахарный тростник
+  icon: textures/items/reeds
+'344_0':
+  name: Яйцо
+  icon: textures/items/egg
+'39_0':
+  name: Белый гриб
+  icon: textures/blocks/mushroom_brown
+'40_0':
+  name: Мухомор
+  icon: textures/blocks/mushroom_red
+'99_14':
+  name: Блок белого гриба
+  icon: textures/blocks/mushroom_block_skin_brown
+'100_14':
+  name: Блок мухомора
+  icon: textures/blocks/mushroom_block_skin_red
+'99_15':
+  name: Блок ножки гриба
+  icon: textures/blocks/mushroom_block_skin_stem
+'99_0':
+  name: Блок шляпы гриба
+  icon: textures/blocks/mushroom_block_skin_inside
+'365_0':
+  name: Сырая курятина
+  icon: textures/items/chicken_raw
+'319_0':
+  name: Сырая свинина
+  icon: textures/items/porkchop_raw
+'363_0':
+  name: Сырая говядина
+  icon: textures/items/beef_raw
+'423_0':
+  name: Сырая баранина
+  icon: textures/items/mutton_raw
+'411_0':
+  name: Сырая крольчатина
+  icon: textures/items/rabbit_raw
+'349_0':
+  name: Сырая треска
+  icon: textures/items/fish_raw
+'461_0':
+  name: Тропическая рыба
+  icon: textures/items/fish_clownfish_raw
+'462_0':
+  name: Рыба Фугу
+  icon: Рtextures/items/fish_pufferfish_raw
+'78_0':
+  name: Снежный покров
+  icon: textures/blocks/snow
+'65525_0':
+  name: Синий лёд
+  icon: textures/blocks/blue_ice
+'174_0':
+  name: Плотный лёд
+  icon: textures/blocks/ice_packed
+'79_0':
+  name: Лёд
+  icon: textures/blocks/ice
+'80_0':
+  name: Снег
+  icon: textures/blocks/snow
+'65373_0':
+  name: Бамбук
+  icon: textures/blocks/bamboo_stem
+'32_0':
+  name: Сухой куст
+  icon: textures/blocks/deadbush
+'111_0':
+  name: Кувшинка
+  icon: textures/blocks/carried_waterlily
+'106_0':
+  name: Лоза
+  icon: textures/blocks/vine_carried
+'351_15':
+  name: Костная мука
+  icon: textures/items/dye_powder_white
+'351_3':
+  name: Какао-бобы
+  icon: textures/items/dye_powder_brown
+'351_4':
+  name: Лазурит
+  icon: textures/items/dye_powder_blue
+'351_0':
+  name: Пузырёк с чернилами
+  icon: textures/items/dye_powder_black
+'5_0':
+  name: Доски из древесины дуба
+  icon: textures/blocks/planks_oak
+'5_1':
+  name: Доски из древесины сосны
+  icon: textures/blocks/planks_spruce
+'5_2':
+  name: Доски из древесины берёзы
+  icon: textures/blocks/planks_birch
+'5_3':
+  name: Доски из древесины тропического дерева
+  icon: textures/blocks/planks_jungle
+'5_4':
+  name: Доски из древесины акации
+  icon: textures/blocks/planks_acacia
+'5_5':
+  name: Доски из тёмного дуба
+  icon: textures/blocks/planks_big_oak
+'139_0':
+  name: Стена из булыжника
+  icon: textures/blocks/cobblestone
+'139_1':
+  name: Стена из замшелового булыжника
+  icon: textures/blocks/cobblestone_mossy
+'139_2':
+  name: Стена из гранита
+  icon: textures/blocks/stone_granite
+'139_3':
+  name: Стена из диорита
+  icon: textures/blocks/stone_diorite_smooth
+'139_4':
+  name: Стена из андезита
+  icon: textures/blocks/stone_andesite_smooth
+'139_5':
+  name: Стена из песчаника
+  icon: textures/blocks/sandstone_top
+'139_7':
+  name: Стена из каменного кирпича
+  icon: textures/blocks/stonebrick
+'139_8':
+  name: Стена из замшелого каменного кирпича
+  icon: textures/blocks/stonebrick_mossy
+'139_6':
+  name: Стена из кирпича
+  icon: textures/blocks/brick
+'139_9':
+  name: Стена из кирпича Нижнего мира
+  icon: textures/blocks/nether_brick
+'139_13':
+  name: Стена из красного кирпича Нижнего мира
+  icon: textures/blocks/red_nether_brick
+'139_10':
+  name: Стена из каменного кирпича края
+  icon: textures/blocks/end_bricks
+'139_11':
+  name: Призмариновая стена
+  icon: textures/blocks/prismarine_bricks
+'85_0':
+  name: Забор из дуба
+  icon: textures/blocks/planks_oak
+'85_1':
+  name: Забор из сосны
+  icon: textures/blocks/planks_spruce
+'85_2':
+  name: Забор из берёзы
+  icon: textures/blocks/planks_birch
+'85_3':
+  name: Забор из тропического дерева
+  icon: textures/blocks/planks_jungle
+'85_4':
+  name: Забор из акации
+  icon: textures/blocks/planks_acacia
+'85_5':
+  name: Забор из тёмного дуба
+  icon: textures/blocks/planks_big_oak
+'113_0':
+  name: Забор из кирпичей Нижнего мира
+  icon: textures/blocks/nether_brick
+'107_0':
+  name: Ворота из дуба
+  icon: textures/blocks/planks_oak
+'183_0':
+  name: Ворота из сосны
+  icon: textures/blocks/planks_spruce
+'184_0':
+  name: Ворота из берёзы
+  icon: textures/blocks/planks_birch
+'185_0':
+  name: Ворота из тропического дерева
+  icon: textures/blocks/planks_jungle
+'187_0':
+  name: Ворота из акации
+  icon: textures/blocks/planks_acacia
+'186_0':
+  name: Ворота из тёмного дуба
+  icon: textures/blocks/planks_big_oak
+'65356_0':
+  name: Ступени из камня
+  icon: textures/blocks/stone
+'67_0':
+  name: Ступени из булыжника
+  icon: textures/blocks/cobblestone
+'65357_0':
+  name: Ступени из замшелого булыжника
+  icon: textures/blocks/cobblestone_mossy
+'53_0':
+  name: Ступени из древесины дуба
+  icon: textures/blocks/planks_oak
+'134_0':
+  name: Ступени из древесины сосны
+  icon: textures/blocks/planks_spruce
+'135_0':
+  name: Ступени из древесины берёзы
+  icon: textures/blocks/planks_birch
+'163_0':
+  name: Ступени из древесины акации
+  icon: textures/blocks/planks_jungle
+'164_0':
+  name: Ступени из древесины тёмного дуба
+  icon: textures/blocks/planks_acacia
+'109_0':
+  name: Ступени из каменных кирпичей
+  icon: textures/blocks/planks_big_oak
+'65361_0':
+  name: Ступени из замшелого каменного кирпича
+  icon: textures/blocks/stonebrick_mossy
+'128_0':
+  name: Ступени из песчаника
+  icon: textures/blocks/sandstone_top
+'65359_0':
+  name: Ступени из гладкого песчаника
+  icon: textures/blocks/sandstone_top
+'180_0':
+  name: Ступени из красного песчаника
+  icon: textures/blocks/red_sandstone_top
+'65360_0':
+  name: Ступени из гладкого красного песчаника
+  icon: textures/blocks/red_sandstone_top
+'65367_0':
+  name: Ступени из гранита
+  icon: textures/blocks/stone_granite
+'65364_0':
+  name: Ступени из полированного гранита
+  icon: textures/blocks/stone_granite_smooth
+'65366_0':
+  name: Ступени из диорита
+  icon: textures/blocks/stone_diorite
+'65363_0':
+  name: Ступени из полированного диорита
+  icon: textures/blocks/stone_diorite_smooth
+'65365_0':
+  name: Ступени из андезита
+  icon: textures/blocks/stone_andesite
+'65362_0':
+  name: Ступени из полированного андезита
+  icon: textures/blocks/stone_andesite_smooth
+'108_0':
+  name: Кирпичные ступени
+  icon: textures/blocks/brick
+'114_0':
+  name: Ступени из кирпичей Нижнего мира
+  icon: textures/blocks/nether_brick
+'65352_0':
+  name: Ступени из красного кирпича Нижнего мира
+  icon: textures/blocks/red_nether_brick
+'65358_0':
+  name: Ступени из каменного кирпича Края
+  icon: textures/blocks/end_bricks
+'156_0':
+  name: Кварцевые ступени
+  icon: textures/blocks/quartz_block_bottom
+'65351_0':
+  name: Ступени из гладкого кварца
+  icon: textures/blocks/quartz_block_bottom
+'203_0':
+  name: Пурпурные ступени
+  icon: textures/blocks/purpur_block
+'65534_0':
+  name: Призмариновые ступени
+  icon: textures/blocks/prismarine_rough
+'65533_0':
+  name: Ступени из тёмного призмарина
+  icon: textures/blocks/prismarine_dark
+'65532_0':
+  name: Ступени из призмариновых кирпичей
+  icon: textures/blocks/prismarine_bricks
+'324_0':
+  name: Дверь из дуба
+  icon: textures/items/door_wood
+'427_0':
+  name: Дверь из сосны
+  icon: textures/items/door_spruce
+'428_0':
+  name: Дверь из берёзы
+  icon: textures/items/door_birch
+'429_0':
+  name: Дверь из тропического дерева
+  icon: textures/items/door_jungle
+'430_0':
+  name: Дверь из акации
+  icon: textures/items/door_acacia
+'431_0':
+  name: Дверь из тёмного дуба
+  icon: textures/items/door_dark_oak
+'330_0':
+  name: Железная дверь
+  icon: textures/items/door_iron
+'96_0':
+  name: Люк из дуба
+  icon: textures/blocks/trapdoor
+'65387_0':
+  name: Люк из сосны
+  icon: textures/blocks/spruce_trapdoor
+'65390_0':
+  name: Люк из берёзы
+  icon: textures/blocks/birch_trapdoor
+'65388_0':
+  name: Люк из тропического дерева
+  icon: textures/blocks/jungle_trapdoor
+'65391_0':
+  name: Люк из акации
+  icon: textures/blocks/acacia_trapdoor
+'65389_0':
+  name: Люк из тёмного дуба
+  icon: textures/blocks/dark_oak_trapdoor
+'167_0':
+  name: Железный люк
+  icon: textures/blocks/iron_trapdoor
+'101_0':
+  name: Железная решётка
+  icon: textures/blocks/iron_bars
+'20_0':
+  name: Стекло
+  icon: textures/blocks/glass
+'241_0':
+  name: Белое стекло
+  icon: textures/blocks/glass_white
+'241_8':
+  name: Светло-серое стекло
+  icon: textures/blocks/glass_silver
+'241_7':
+  name: Серое стекло
+  icon: textures/blocks/glass_gray
+'241_15':
+  name: Чёрное стекло
+  icon: textures/blocks/glass_black
+'241_12':
+  name: Коричневое стекло
+  icon: textures/blocks/glass_brown
+'241_14':
+  name: Красное стекло
+  icon: textures/blocks/glass_red
+'241_1':
+  name: Оранжевое стекло
+  icon: textures/blocks/glass_orange
+'241_4':
+  name: Жёлтое стекло
+  icon: textures/blocks/glass_yellow
+'241_5':
+  name: Лаймовое стекло
+  icon: textures/blocks/glass_lime
+'241_13':
+  name: Зелёное стекло
+  icon: textures/blocks/glass_green
+'241_9':
+  name: Бирюзовое стекло
+  icon: textures/blocks/glass_cyan
+'241_3':
+  name: Голубое стекло
+  icon: textures/blocks/glass_light_blue
+'241_11':
+  name: Синее стекло
+  icon: textures/blocks/glass_blue
+'241_10':
+  name: Фиолетовое стекло
+  icon: textures/blocks/glass_purple
+'241_2':
+  name: Пурпурное стекло
+  icon: textures/blocks/glass_magenta
+'241_6':
+  name: Розовое стекло
+  icon: textures/blocks/glass_pink
+'102_0':
+  name: Стеклянная панель
+  icon: textures/blocks/glass
+'160_0':
+  name: Белая стеклянная панель
+  icon: textures/blocks/glass_white
+'160_8':
+  name: Светло-серая стеклянная панель
+  icon: textures/blocks/glass_silver
+'160_7':
+  name: Серая стеклянная панель
+  icon: textures/blocks/glass_gray
+'160_15':
+  name: Чёрная стеклянная панель
+  icon: textures/blocks/glass_black
+'160_12':
+  name: Коричневая стеклянная панель
+  icon: textures/blocks/glass_brown
+'160_14':
+  name: Красная стеклянная панель
+  icon: textures/blocks/glass_red
+'160_1':
+  name: Оранжевая стеклянная панель
+  icon: textures/blocks/glass_orange
+'160_4':
+  name: Жёлтая стеклянная панель
+  icon: textures/blocks/glass_yellow
+'160_5':
+  name: Лаймовая стеклянная панель
+  icon: textures/blocks/glass_lime
+'160_13':
+  name: Зелёная стеклянная панель
+  icon: textures/blocks/glass_green
+'160_9':
+  name: Бирюзовая стеклянная панель
+  icon: textures/blocks/glass_cyan
+'160_3':
+  name: Голубая стеклянная панель
+  icon: textures/blocks/glass_light_blue
+'160_11':
+  name: Синяя стеклянная панель
+  icon: textures/blocks/glass_blue
+'160_10':
+  name: Фиолетовая стеклянная панель
+  icon: textures/blocks/glass_purple
+'160_2':
+  name: Пурпурная стеклянная панель
+  icon: textures/blocks/glass_magenta
+'160_6':
+  name: Розовая стеклянная панель
+  icon: textures/blocks/glass_pink
+'65_0':
+  name: Лестница
+  icon: textures/blocks/ladder
+'65371_0':
+  name: Строительные леса
+  icon: textures/blocks/scaffolding_top
+'44_0':
+  name: Плита из гладкого камня
+  icon: textures/blocks/stone_slab_top
+'65370_2':
+  name: Плита из камня
+  icon: textures/blocks/stone
+'44_3':
+  name: Плита из булыжника
+  icon: textures/blocks/cobblestone
+'182_5':
+  name: Плита из замшелого булыжника
+  icon: textures/blocks/cobblestone_mossy
+'158_0':
+  name: Плита из древесины дуба
+  icon: textures/blocks/planks_oak
+'158_1':
+  name: Плита из древесины сосны
+  icon: textures/blocks/planks_spruce
+'158_2':
+  name: Плита из древесины берёзы
+  icon: textures/blocks/planks_birch
+'158_3':
+  name: Плита из тропического дерева
+  icon: textures/blocks/planks_jungle
+'158_4':
+  name: Плита из древесины акации
+  icon: textures/blocks/planks_acacia
+'158_5':
+  name: Плита из древесины тёмного дуба
+  icon: textures/blocks/planks_big_oak
+'44_5':
+  name: Плита из каменных кирпичей
+  icon: textures/blocks/stonebrick
+'65370_0':
+  name: Плита из замшелого каменного кирпича
+  icon: textures/blocks/stonebrick_mossy
+'44_1':
+  name: Плита из песчаника
+  icon: textures/blocks/sandstone_top
+'65370_3':
+  name: Плита из тесаного песчаника
+  icon: textures/blocks/sandstone_top
+'182_6':
+  name: Плита из гладкого песчаника
+  icon: textures/blocks/sandstone_top
+'182_0':
+  name: Плита из красного песчаника
+  icon: textures/blocks/sandstone_top
+'65370_4':
+  name: Плита из тесаного красного песчаника
+  icon: textures/blocks/red_sandstone_top
+'65374_1':
+  name: Плита из гладкого красного песчаника
+  icon: textures/blocks/red_sandstone_top
+'65374_6':
+  name: Плита из гранита
+  icon: textures/blocks/stone_granite
+'65374_7':
+  name: Плита из полированного гранита
+  icon: textures/blocks/stone_granite_smooth
+'65374_4':
+  name: Плита из диорита
+  icon: textures/blocks/stone_diorite
+'65374_5':
+  name: Плита из полированного диорита
+  icon: textures/blocks/stone_diorite_smooth
+'65374_3':
+  name: Плита из андезита
+  icon: textures/blocks/stone_andesite
+'65374_2':
+  name: Плита из полированного андезита
+  icon: textures/blocks/stone_andesite_smooth
+'44_4':
+  name: Кирпичная плита
+  icon: textures/blocks/brick
+'44_7':
+  name: Плита из кирпичей Нижнего мира
+  icon: textures/blocks/nether_brick
+'182_7':
+  name: Плита из красного кирпича Нижнего мира
+  icon: textures/blocks/red_nether_brick
+'65374_0':
+  name: Плита из каменного кирпича Края
+  icon: textures/blocks/end_bricks
+'44_6':
+  name: Кварцевая плита
+  icon: textures/blocks/quartz_block_top
+'65370_1':
+  name: Плита из гладкого кварца
+  icon: textures/blocks/quartz_block_top
+'182_1':
+  name: Пурпурная плита
+  icon: textures/blocks/purpur_block
+'182_2':
+  name: Призмариновая плита
+  icon: textures/blocks/prismarine_rough
+'182_3':
+  name: Плита из тёмного призмарина
+  icon: textures/blocks/prismarine_dark
+'182_4':
+  name: Плита из призмаринованых кирпичей
+  icon: textures/blocks/prismarine_bricks
+'45_0':
+  name: Блок кирпича
+  icon: textures/blocks/brick
+'98_0':
+  name: Каменные кирпичи
+  icon: textures/blocks/stonebrick
+'98_1':
+  name: Замшелые каменные кирпичи
+  icon: textures/blocks/stonebrick_mossy
+'98_2':
+  name: Потрескавшиеся каменные кирпичи
+  icon: textures/blocks/stonebrick_cracked
+'98_3':
+  name: Резные каменные кирпичи
+  icon: textures/blocks/stonebrick_carved
+'206_0':
+  name: Кирпичи из камня Края
+  icon: textures/blocks/end_bricks
+'168_2':
+  name: Призмаринованые кирпичи
+  icon: textures/blocks/prismarine_bricks
+'4_0':
+  name: Булыжник
+  icon: textures/blocks/cobblestone
+'48_0':
+  name: Замшелый булыжник
+  icon: textures/blocks/cobblestone_mossy
+'65353_0':
+  name: Гладкий камень
+  icon: textures/blocks/stone_slab_top
+'24_0':
+  name: Песчаник
+  icon: textures/blocks/sandstone_normal
+'24_1':
+  name: Обработанный песчаник
+  icon: textures/blocks/sandstone_smooth
+'24_2':
+  name: Тесаный песчаник
+  icon: textures/blocks/sandstone_carved
+'24_3':
+  name: Гладкий песчаник
+  icon: textures/blocks/sandstone_top
+'179_0':
+  name: Красный песчаник
+  icon: textures/blocks/red_sandstone_normal
+'179_1':
+  name: Резной красный песчаник
+  icon: textures/blocks/red_sandstone_smooth
+'179_2':
+  name: Тесаный красный песчаник
+  icon: textures/blocks/red_sandstone_carved
+'179_3':
+  name: Гладкий красный песчаник
+  icon: textures/blocks/red_sandstone_top
+'173_0':
+  name: Угольный блок
+  icon: textures/blocks/coal_block
+'65397_0':
+  name: Блок сушёных водорослей
+  icon: textures/blocks/dried_kelp_top
+'41_0':
+  name: Золотой блок
+  icon: textures/blocks/gold_block
+'42_0':
+  name: Железный блок
+  icon: textures/blocks/iron_block
+'133_0':
+  name: Изумрудный блок
+  icon: textures/blocks/emerald_block
+'57_0':
+  name: Алмазный блок
+  icon: textures/blocks/diamond_block
+'22_0':
+  name: Лазуритовый блок
+  icon: textures/blocks/lapis_block
+'155_0':
+  name: Кварцевый блок
+  icon: textures/blocks/quartz_block_top
+'155_2':
+  name: Кварцевая колонна
+  icon: textures/blocks/quartz_block_lines
+'155_1':
+  name: Резной кварцевый блок
+  icon: textures/blocks/quartz_block_chiseled
+'155_3':
+  name: Гладкий блок кварца
+  icon: textures/blocks/quartz_block_side
+'168_0':
+  name: Призмарин
+  icon: textures/blocks/prismarine_rough
+'168_1':
+  name: Тёмный призмарин
+  icon: textures/blocks/prismarine_dark
+'165_0':
+  name: Блок слизи
+  icon: textures/blocks/slime
+'65316_0':
+  name: Блок мёда
+  icon: textures/blocks/Блок мёда
+'65315_0':
+  name: Блок медовых сот
+  icon: textures/blocks/Блок медовых сот
+'170_0':
+  name: Сноп сена
+  icon: textures/blocks/hay_block_side
+'216_0':
+  name: Костяной блок
+  icon: textures/blocks/bone_block_side
+'214_0':
+  name: Блок нароста из Нижнего мира
+  icon: textures/blocks/nether_wart_stage_1
+'112_0':
+  name: Блок кирпича Нижнего мира
+  icon: textures/blocks/nether_brick
+'215_0':
+  name: Красный кирпич Нижнего мира
+  icon: textures/blocks/red_nether_brick
+'35_0':
+  name: Белая шерсть
+  icon: textures/blocks/wool_colored_white
+'35_8':
+  name: Светло-серая шерсть
+  icon: textures/blocks/wool_colored_silver
+'35_7':
+  name: Серая шерсть
+  icon: textures/blocks/wool_colored_gray
+'35_15':
+  name: Черная шерсть
+  icon: textures/blocks/wool_colored_black
+'35_12':
+  name: Коричневая шерсть
+  icon: textures/blocks/wool_colored_brown
+'35_14':
+  name: Красная шерсть
+  icon: textures/blocks/wool_colored_red
+'35_1':
+  name: Оранжевая шерсть
+  icon: textures/blocks/wool_colored_orange
+'35_4':
+  name: Жёлтая шерсть
+  icon: textures/blocks/wool_colored_yellow
+'35_5':
+  name: Лаймовая шерсть
+  icon: textures/blocks/wool_colored_lime
+'35_13':
+  name: Зелёная шерсть
+  icon: textures/blocks/wool_colored_green
+'35_9':
+  name: Бирюзовая шерсть
+  icon: textures/blocks/wool_colored_cyan
+'35_3':
+  name: Голубая шерсть
+  icon: textures/blocks/wool_colored_lightblue
+'35_11':
+  name: Синяя шерсть
+  icon: textures/blocks/wool_colored_blue
+'35_10':
+  name: Фиолетовая шерсть
+  icon: textures/blocks/wool_colored_purple
+'35_2':
+  name: Пурпурная шерсть
+  icon: textures/blocks/wool_colored_magenta
+'35_6':
+  name: Розовая шерсть
+  icon: textures/blocks/wool_colored_pink
+'171_0':
+  name: Белый ковёр
+  icon: textures/blocks/wool_colored_white
+'171_8':
+  name: Светло-серый ковёр
+  icon: textures/blocks/wool_colored_silver
+'171_7':
+  name: Серый ковёр
+  icon: textures/blocks/wool_colored_gray
+'171_15':
+  name: Чёрный ковёр
+  icon: textures/blocks/wool_colored_black
+'171_12':
+  name: Коричневый ковёр
+  icon: textures/blocks/wool_colored_brown
+'171_14':
+  name: Красный ковёр
+  icon: textures/blocks/wool_colored_red
+'171_1':
+  name: Оранжевый ковёр
+  icon: textures/blocks/wool_colored_orange
+'171_4':
+  name: Жёлтый ковёр
+  icon: textures/blocks/wool_colored_yellow
+'171_5':
+  name: Лаймовый ковёр
+  icon: textures/blocks/wool_colored_lime
+'171_13':
+  name: Зелёный ковёр
+  icon: textures/blocks/wool_colored_green
+'171_9':
+  name: Бирюзовый ковёр
+  icon: textures/blocks/wool_colored_cyan
+'171_3':
+  name: Голубой ковёр
+  icon: textures/blocks/wool_colored_lightblue
+'171_11':
+  name: Синий ковёр
+  icon: textures/blocks/wool_colored_blue
+'171_10':
+  name: Фиолетовый ковёр
+  icon: textures/blocks/wool_colored_purple
+'171_2':
+  name: Пурпурный ковёр
+  icon: textures/blocks/wool_colored_magenta
+'171_6':
+  name: Розовый ковёр
+  icon: textures/blocks/wool_colored_pink
+'237_0':
+  name: Белый цемент
+  icon: textures/blocks/concrete_powder_white
+'237_8':
+  name: Светло-серый цемент
+  icon: textures/blocks/concrete_powder_silver
+'237_7':
+  name: Серый цемент
+  icon: textures/blocks/concrete_powder_gray
+'237_15':
+  name: Черный цемент
+  icon: textures/blocks/concrete_powder_black
+'237_12':
+  name: Коричневый цемент
+  icon: textures/blocks/concrete_powder_brown
+'237_14':
+  name: Красный цемент
+  icon: textures/blocks/concrete_powder_red
+'237_1':
+  name: Оранжевый цемент
+  icon: textures/blocks/concrete_powder_orange
+'237_4':
+  name: Жёлтый цемент
+  icon: textures/blocks/concrete_powder_yellow
+'237_5':
+  name: Лаймовый цемент
+  icon: textures/blocks/concrete_powder_lime
+'237_13':
+  name: Зелёный цемент
+  icon: textures/blocks/concrete_powder_green
+'237_9':
+  name: Бирюзовый цемент
+  icon: textures/blocks/concrete_powder_cyan
+'237_3':
+  name: Голубой цемент
+  icon: textures/blocks/concrete_powder_lightblue
+'237_11':
+  name: Синий цемент
+  icon: textures/blocks/concrete_powder_blue
+'237_10':
+  name: Фиолетовый цемент
+  icon: textures/blocks/concrete_powder_purple
+'237_2':
+  name: Пурпурный цемент
+  icon: textures/blocks/concrete_powder_magenta
+'237_6':
+  name: Розовый цемент
+  icon: textures/blocks/concrete_powder_pink
+'236_0':
+  name: Белый бетон
+  icon: textures/blocks/concrete_white
+'236_8':
+  name: Светло-серый бетон
+  icon: textures/blocks/concrete_silver
+'236_7':
+  name: Серый бетон
+  icon: textures/blocks/concrete_gray
+'236_15':
+  name: Чёрный бетон
+  icon: textures/blocks/concrete_black
+'236_12':
+  name: Коричневый бетон
+  icon: textures/blocks/concrete_brown
+'236_14':
+  name: Красный бетон
+  icon: textures/blocks/concrete_red
+'236_1':
+  name: Оранжевый бетон
+  icon: textures/blocks/concrete_orange
+'236_4':
+  name: Жёлтый бетон
+  icon: textures/blocks/concrete_yellow
+'236_5':
+  name: Лаймовый бетон
+  icon: textures/blocks/concrete_lime
+'236_13':
+  name: Зелёный бетон
+  icon: textures/blocks/concrete_green
+'236_9':
+  name: Бирюзовый бетон
+  icon: textures/blocks/concrete_cyan
+'236_3':
+  name: Голубой бетон
+  icon: textures/blocks/concrete_lightblue
+'236_11':
+  name: Синий бетон
+  icon: textures/blocks/concrete_blue
+'236_10':
+  name: Фиолетовый бетон
+  icon: textures/blocks/concrete_purple
+'236_2':
+  name: Пурпурный бетон
+  icon: textures/blocks/concrete_magenta
+'236_6':
+  name: Розовый бетон
+  icon: textures/blocks/concrete_pink
+'82_0':
+  name: Блок глины
+  icon: textures/blocks/clay
+'172_0':
+  name: Терракота
+  icon: textures/blocks/hardened_clay
+'159_0':
+  name: Белая терракота
+  icon: textures/blocks/hardened_clay_stained_white
+'159_8':
+  name: Светло-серая терракота
+  icon: textures/blocks/hardened_clay_stained_silver
+'159_7':
+  name: Серая терракота
+  icon: textures/blocks/hardened_clay_stained_gray
+'159_15':
+  name: Чёрная терракота
+  icon: textures/blocks/hardened_clay_stained_black
+'159_12':
+  name: Коричневая терракота
+  icon: textures/blocks/hardened_clay_stained_brown
+'159_14':
+  name: Красная терракота
+  icon: textures/blocks/hardened_clay_stained_red
+'159_1':
+  name: Оранжевая терракота
+  icon: textures/blocks/hardened_clay_stained_orange
+'159_4':
+  name: Жёлтая терракота
+  icon: textures/blocks/hardened_clay_stained_yellow
+'159_5':
+  name: Лаймовая терракота
+  icon: textures/blocks/hardened_clay_stained_lime
+'159_13':
+  name: Зелёная терракота
+  icon: textures/blocks/hardened_clay_stained_green
+'159_9':
+  name: Бирюзовая терракота
+  icon: textures/blocks/hardened_clay_stained_cyan
+'159_3':
+  name: Голубая терракота
+  icon: textures/blocks/hardened_clay_stained_lightblue
+'159_11':
+  name: Синяя терракота
+  icon: textures/blocks/hardened_clay_stained_blue
+'159_10':
+  name: Фиолетовая терракота
+  icon: textures/blocks/hardened_clay_stained_purple
+'159_2':
+  name: Пурпурная терракота
+  icon: textures/blocks/hardened_clay_stained_magenta
+'159_6':
+  name: Розовая терракота
+  icon: textures/blocks/hardened_clay_stained_pink
+'220_0':
+  name: Белая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_white
+'228_0':
+  name: Светло-серая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_silver
+'227_0':
+  name: Серая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_gray
+'235_0':
+  name: Чёрная глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_black
+'232_0':
+  name: Коричневая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_brown
+'234_0':
+  name: Красная глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_red
+'221_0':
+  name: Оранжевая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_orange
+'224_0':
+  name: Жёлтая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_yellow
+'225_0':
+  name: Лаймовая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_lime
+'233_0':
+  name: Зелёная глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_green
+'229_0':
+  name: Бирюзовая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_cyan
+'223_0':
+  name: Голубая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_lightblue
+'231_0':
+  name: Синя глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_blue
+'219_0':
+  name: Фиолетовая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_purple
+'222_0':
+  name: Пурпурная глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_magenta
+'226_0':
+  name: Розовая глазурованная терракота
+  icon: textures/blocks/glazed_terracotta_pink
+'201_0':
+  name: Пурпурный блок
+  icon: textures/blocks/purpur_block
+'201_2':
+  name: Пурпурная колонна
+  icon: textures/blocks/purpur_pillar
+'280_0':
+  name: Палка
+  icon: textures/items/blaze_rod/Палка
+'355_0':
+  name: Белая кровать
+  icon: textures/items/bed_white
+'355_8':
+  name: Светло-серая кровать
+  icon: textures/items/bed_silver
+'355_7':
+  name: Серая кровать
+  icon: textures/items/bed_gray
+'355_15':
+  name: Черная кровать
+  icon: textures/items/bed_black
+'355_12':
+  name: Коричневая кровать
+  icon: textures/items/bed_brown
+'355_14':
+  name: Красная кровать
+  icon: textures/items/bed_red
+'355_1':
+  name: Оранжевая кровать
+  icon: textures/items/bed_orange
+'355_5':
+  name: Лаймовая кровать
+  icon: textures/items/bed_lime
+'355_13':
+  name: Зелёная кровать
+  icon: textures/items/bed_green
+'355_9':
+  name: Бирюзовая кровать
+  icon: textures/items/bed_cyan
+'355_3':
+  name: Голубая кровать
+  icon: textures/items/bed_light_blue
+'355_11':
+  name: Синяя кровать
+  icon: textures/items/bed_blue
+'355_10':
+  name: Фиолетовая кровать
+  icon: textures/items/bed_purple
+'355_2':
+  name: Пурпурная кровать
+  icon: textures/items/bed_magenta
+'355_6':
+  name: Розовая кровать
+  icon: textures/items/bed_pink
+'50_0':
+  name: Факел
+  icon: textures/blocks/torch_on
+'58_0':
+  name: Верстак
+  icon: textures/blocks/crafting_table_top
+'61_0':
+  name: Печка
+  icon: textures/blocks/furnace_front_off
+'379_0':
+  name: Варочная стойка
+  icon: textures/items/brewing_stand
+'145_0':
+  name: Наковальня
+  icon: textures/blocks/anvil_top_damaged_0
+'145_4':
+  name: Повреждённая наковальня
+  icon: textures/blocks/anvil_top_damaged_1
+'145_8':
+  name: Сильно повреждённая наковальня
+  icon: textures/blocks/anvil_top_damaged_2
+'116_0':
+  name: Стол зачарований
+  icon: textures/blocks/enchanting_table_top
+'47_0':
+  name: Книжный шкаф
+  icon: textures/blocks/bookshelf
+'380_0':
+  name: Котёл
+  icon: textures/items/cauldron
+'54_0':
+  name: Сундук
+  icon: textures/blocks/chest_front
+'146_0':
+  name: Сундук-ловушка
+  icon: textures/blocks/trapped_chest_front
+'130_0':
+  name: Сундук Края
+  icon: textures/blocks/ender_chest_front
+'205_0':
+  name: Ящик шалкера
+  icon: textures/blocks/shulker_top_Ящик шалкера
+'218_0':
+  name: Белый ящик шалкера
+  icon: textures/blocks/shulker_top_white
+'218_8':
+  name: Светло-серый ящик шалкера
+  icon: textures/blocks/shulker_top_silver
+'218_7':
+  name: Серый ящик шалкера
+  icon: textures/blocks/shulker_top_gray
+'218_15':
+  name: Черный ящик шалкера
+  icon: textures/blocks/shulker_top_black
+'218_12':
+  name: Коричневый ящик шалкера
+  icon: textures/blocks/shulker_top_brown
+'218_14':
+  name: Красный ящик шалкера
+  icon: textures/blocks/shulker_top_red
+'218_1':
+  name: Оранжевый ящик шалкера
+  icon: textures/blocks/shulker_top_orange
+'218_4':
+  name: Желтый ящик шалкера
+  icon: textures/blocks/shulker_top_yellow
+'218_5':
+  name: Лаймовый ящик шалкера
+  icon: textures/blocks/shulker_top_lime
+'218_13':
+  name: Зелёный ящик шалкера
+  icon: textures/blocks/shulker_top_green
+'218_9':
+  name: Бирюзовый ящик шалкера
+  icon: textures/blocks/shulker_top_cyan
+'218_3':
+  name: Голубой ящик шалкера
+  icon: textures/blocks/shulker_top_lightblue
+'218_11':
+  name: Синий ящик шалкера
+  icon: textures/blocks/shulker_top_blue
+'218_10':
+  name: Фиолетовый ящик шалкера
+  icon: textures/blocks/shulker_top_purple
+'218_2':
+  name: Пурпурный ящик шалкера
+  icon: textures/blocks/shulker_top_magenta
+'218_6':
+  name: Розовый ящик шалкера
+  icon: textures/blocks/shulker_top_pink
+'425_0':
+  name: Стойка для доспехов
+  icon: textures/items/armor_stand
+'25_0':
+  name: Музыкальный блок
+  icon: textures/blocks/jukebox_side
+'84_0':
+  name: Проигрыватель
+  icon: textures/blocks/jukebox_top
+'348_0':
+  name: Светопыль
+  icon: textures/items/glowstone_dust
+'89_0':
+  name: Светящийся камень
+  icon: textures/blocks/glowstone
+'123_0':
+  name: Лампа из красного камня
+  icon: textures/blocks/redstone_lamp_off
+'169_0':
+  name: Морской фонарь
+  icon: textures/blocks/sea_lantern
+'323_0':
+  name: Табличка из дуба
+  icon: textures/items/sign
+'321_0':
+  name: Картина
+  icon: textures/items/painting
+'389_0':
+  name: Рамка
+  icon: textures/items/item_frame
+'390_0':
+  name: Цветочный горшок
+  icon: textures/items/flower_pot
+'281_0':
+  name: Миска
+  icon: textures/items/bowl
+'325_0':
+  name: Ведро
+  icon: textures/items/bucket_empty
+'325_1':
+  name: Ведро с молоком
+  icon: textures/items/bucket_milk
+'325_8':
+  name: Ведро воды
+  icon: textures/items/bucket_water
+'325_10':
+  name: Ведро лавы
+  icon: textures/items/bucket_lava
+'138_0':
+  name: Маяк
+  icon: textures/blocks/Маяк
+'120_0':
+  name: Портал Края
+  icon: textures/blocks/Портал Края
+'263_0':
+  name: Уголь
+  icon: textures/items/coal
+'263_1':
+  name: Древесный уголь
+  icon: textures/items/charcoal
+'264_0':
+  name: Алмаз
+  icon: textures/items/diamond
+'452_0':
+  name: Железный самородок
+  icon: textures/items/iron_nugget
+'371_0':
+  name: Золотой самородок
+  icon: textures/items/gold_nugget
+'265_0':
+  name: Железный слиток
+  icon: textures/items/iron_ingot
+'266_0':
+  name: Золотой слиток
+  icon: textures/items/gold_ingot
+'388_0':
+  name: Изумруд
+  icon: textures/items/emerald
+'406_0':
+  name: Кварц Нижнего мира
+  icon: textures/items/quartz
+'337_0':
+  name: Глина
+  icon: textures/items/clay_ball
+'336_0':
+  name: Кирпич
+  icon: textures/items/brick
+'405_0':
+  name: Кирпич Нижнего мира
+  icon: textures/items/netherbrick
+'409_0':
+  name: Осколок призмарина
+  icon: textures/items/prismarine_shard
+'422_0':
+  name: Кристаллы призмарина
+  icon: textures/items/prismarine_crystals
+'470_0':
+  name: Мембрана фантома
+  icon: textures/items/phantom_membrane
+'287_0':
+  name: Нить
+  icon: textures/items/string
+'288_0':
+  name: Перо
+  icon: textures/items/feather
+'318_0':
+  name: Кремень
+  icon: textures/items/flint
+'289_0':
+  name: Порох
+  icon: textures/items/gunpowder
+'334_0':
+  name: Кожа
+  icon: textures/items/leather
+'415_0':
+  name: Кроличья шкура
+  icon: textures/items/rabbit_hide
+'414_0':
+  name: Кроличья лапка
+  icon: textures/items/rabbit_foot
+'385_0':
+  name: Огненный шар
+  icon: textures/items/fireball
+'369_0':
+  name: Огненный стержень
+  icon: textures/items/blaze_rod
+'377_0':
+  name: Огненный порошок
+  icon: textures/items/blaze_powder
+'378_0':
+  name: Сгусток магмы
+  icon: textures/items/magma_cream
+'376_0':
+  name: Маринованный паучий глаз
+  icon: textures/items/spider_eye_fermented
+'437_0':
+  name: Дыхание дракона
+  icon: textures/items/dragons_breath
+'445_0':
+  name: Панцирь шалкера
+  icon: textures/items/shulker_shell
+'370_0':
+  name: Слеза гаста
+  icon: textures/items/ghast_tear
+'341_0':
+  name: Слизь
+  icon: textures/items/slimeball
+'368_0':
+  name: Жемчуг края
+  icon: textures/items/ender_pearl
+'381_0':
+  name: Око края
+  icon: textures/items/ender_eye
+'399_0':
+  name: Звезда Нижнего мира
+  icon: textures/items/nether_star
+'208_0':
+  name: Стержень Края
+  icon: textures/blocks/end_rod
+'426_0':
+  name: Кристалл Края
+  icon: textures/items/end_crystal
+'339_0':
+  name: Бумага
+  icon: textures/items/paper
+'340_0':
+  name: Книга
+  icon: textures/items/book_normal
+'386_0':
+  name: Книга с пером
+  icon: textures/items/book_writable
+'331_0':
+  name: Красный камень
+  icon: textures/items/redstone_dust
+'152_0':
+  name: Блок красного камня
+  icon: textures/blocks/redstone_block
+'76_0':
+  name: Факел из красного камня
+  icon: textures/blocks/redstone_torch_on
+'69_0':
+  name: Рычаг
+  icon: textures/blocks/lever
+'421_0':
+  name: Бирка
+  icon: textures/items/name_tag
+'297_0':
+  name: Хлеб
+  icon: textures/items/bread
+'393_0':
+  name: Печенный картофель
+  icon: textures/items/potato_baked
+'400_0':
+  name: Тыквенный пирог
+  icon: textures/items/pumpkin_pie
+'366_0':
+  name: Жареная курятина
+  icon: textures/items/chicken_cooked
+'350_0':
+  name: Жареная треска
+  icon: textures/items/fish_cooked
+'257':
+  name: Железная кирка
+  icon: textures/items/iron_pickaxe
+'256':
+  name: Железная лопата
+  icon: textures/items/iron_shovel
+'373_0':
+  name: Бутыль с водой
+  icon: ''
+'302':
+  name: Койф
+  icon: textures/items/chainmail_helmet
+'303':
+  name: Кольчуга
+  icon: textures/items/chainmail_chestplate
+'304':
+  name: Кольчужные поножи
+  icon: textures/items/chainmail_leggings
+'305':
+  name: Кольчужные ботинки
+  icon: textures/items/chainmail_boots
+'306':
+  name: Железный шлем
+  icon: textures/items/iron_helmet
+'307':
+  name: Железная кираса
+  icon: textures/items/iron_chestplate
+'308':
+  name: Железные поножи
+  icon: textures/items/iron_leggings
+'309':
+  name: Железные ботинки
+  icon: textures/items/iron_boots
+'276':
+  name: Алмазный меч
+  icon: textures/items/diamond_sword
+'267':
+  name: Железный меч
+  icon: textures/items/iron_sword
+'291':
+  name: Каменная мотыга
+  icon: textures/items/stone_hoe
+'278':
+  name: Алмазная кирка
+  icon: textures/items/diamond_pickaxe
+'279':
+  name: Алмазный топор
+  icon: textures/items/diamond_axe
+'258':
+  name: Железный топор
+  icon: textures/items/iron_axe
+'77_0':
+  name: Камешек
+  icon: textures/ui/normal_stroke_button
+'907_0':
+  name: Древесный уголь
+  icon: textures/items/charcoal
+'857_0':
+  name: Месячные твоей бывшей
+  icon: textures/items/dye_powder_red
+'822_0':
+  name: Черный краситель
+  icon: textures/items/dye_powder_black_new
+'810_0':
+  name: Белый краситель
+  icon: textures/items/dye_powder_white_new
+'896_0':
+  name: Желтый краситель
+  icon: textures/items/dye_powder_yellow
+'817_0':
+  name: Зелёный краситель
+  icon: textures/items/dye_powder_green
+'813_0':
+  name: Голубой краситель
+  icon: textures/items/dye_powder_light_blue
+'806_0':
+  name: Cиний краситель
+  icon: textures/items/dye_powder_blue
+'888_0':
+  name: Фиолетовый краситель
+  icon: textures/items/dye_powder_purple
+'856_0':
+  name: Пурпурный краситель
+  icon: textures/items/dye_powder_magenta
