@@ -1,5 +1,6 @@
 package ru.dragonestia.expo.dialogue;
 
+import cn.nukkit.Player;
 import lombok.Getter;
 import ru.contentforge.formconstructor.form.element.Button;
 import ru.contentforge.formconstructor.form.element.ImageType;
@@ -20,6 +21,14 @@ public class DialogueButton {
         DialogueManager dialogueManager = Expo.getInstance().getDialogueManager();
         String[] args = action.split(" ", 2);
         ButtonInstance buttonInstance = dialogueManager.getButtonInstance(args[0]);
+
+        Player player = playerData.getPlayer();
+        try {
+            Button override = buttonInstance.getOverrideButton(playerData, sender, dialogue, Dialogue.format(text, playerData.getPlayer(), sender), args.length > 1? args[1].split(" ") : new String[0]);
+            if(override != null) return override;
+        } catch (DialogueError ex){
+            player.sendMessage("§c[ERROR] " + ex.getMessage());
+        }
 
         return new Button(
                 buttonInstance.convertButtonText(Dialogue.format(text, playerData.getPlayer(), sender)),

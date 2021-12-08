@@ -1,6 +1,7 @@
 package ru.dragonestia.expo.dialogue.instance;
 
 import lombok.Getter;
+import ru.contentforge.formconstructor.form.element.Button;
 import ru.dragonestia.expo.dialogue.Dialogue;
 import ru.dragonestia.expo.dialogue.DialogueError;
 import ru.dragonestia.expo.dialogue.DialogueSender;
@@ -22,6 +23,12 @@ public abstract class ButtonInstance {
         return text;
     }
 
-    public abstract void handle(PlayerData playerData, DialogueSender sender, Dialogue dialogue, String text, String[] args) throws DialogueError;
+    public Button getOverrideButton(PlayerData playerData, DialogueSender sender, Dialogue dialogue, String text, String[] args) throws DialogueError {
+        return null;
+    }
+
+    public void handle(PlayerData playerData, DialogueSender sender, Dialogue dialogue, String text, String[] args) throws DialogueError {
+
+    }
 
 }
