@@ -44,6 +44,7 @@ public class DialogueManager implements Listener {
         registerButtonInstance(new QuestionButtonInstance());
         registerButtonInstance(new DispatchCommandButtonInstance());
         registerButtonInstance(new GiveItemButtonInstance(this));
+        registerButtonInstance(new ShopButtonInstance(main));
     }
 
     @SneakyThrows
