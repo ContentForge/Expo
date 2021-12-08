@@ -17,6 +17,7 @@ import ru.dragonestia.expo.item.ItemDataDictionary;
 import ru.dragonestia.expo.paragraph.ParagraphManager;
 import ru.dragonestia.expo.player.PlayerManager;
 import ru.dragonestia.expo.recipe.RecipeManager;
+import ru.dragonestia.expo.shop.EconomyManager;
 import ru.dragonestia.expo.workbench.WorkbenchManager;
 
 import java.io.File;
@@ -35,6 +36,7 @@ public class Expo extends PluginBase {
     @Getter private WorkbenchManager workbenchManager;
     @Getter private DialogueManager dialogueManager;
     @Getter private ProfileManager profileManager;
+    @Getter private EconomyManager economyManager;
 
     @Override
     public void onLoad() {
@@ -45,6 +47,7 @@ public class Expo extends PluginBase {
 
         itemData = new ItemDataDictionary(this);
         playerManager = new PlayerManager(this);
+        economyManager = new EconomyManager(this);
         conditionManager = new ConditionManager(this);
         paragraphManager = new ParagraphManager(this);
         recipeManager = new RecipeManager(this);
