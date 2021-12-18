@@ -1,5 +1,6 @@
 package ru.dragonestia.expo.recipe;
 
+import com.google.gson.JsonSyntaxException;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import ru.dragonestia.expo.Expo;
@@ -44,6 +45,8 @@ public class RecipeManager {
 
                 recipe.init();
                 recipes.put(recipe.getId(), recipe);
+            } catch (JsonSyntaxException ex) {
+                main.getLogger().error("Произошла ошибка при загрузке рецепта в файле " + file.getName());
             }
         }
     }

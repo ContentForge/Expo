@@ -3,6 +3,7 @@ package ru.dragonestia.expo.dialogue;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.EventPriority;
 import cn.nukkit.event.Listener;
+import com.google.gson.JsonSyntaxException;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import ru.dragonestia.expo.Expo;
@@ -48,16 +49,18 @@ public class DialogueManager implements Listener {
     }
 
     @SneakyThrows
-    private void loadDialogues(){
+    private void loadDialogues() {
         File dir = new File("plugins/Expo/dialogues");
-        if(!dir.exists()) dir.mkdir();
+        if (!dir.exists()) dir.mkdir();
 
-        for(File file: dir.listFiles()){
-            if(!file.isFile()) continue;
+        for (File file : dir.listFiles()) {
+            if (!file.isFile()) continue;
 
-            try(FileReader reader = new FileReader(file)){
+            try (FileReader reader = new FileReader(file)) {
                 Dialogue dialogue = Expo.getGson().fromJson(reader, Dialogue.class);
                 dialogues.put(dialogue.getId(), dialogue);
+            } catch (JsonSyntaxException ex) {
+                main.getLogger().error("Произошла ошибка при загрузке диалога в файле " + file.getName());
             }
         }
     }

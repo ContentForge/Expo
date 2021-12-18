@@ -1,6 +1,7 @@
 package ru.dragonestia.expo.entity.npc;
 
 import cn.nukkit.scheduler.AsyncTask;
+import com.google.gson.JsonSyntaxException;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import ru.dragonestia.expo.Expo;
@@ -36,6 +37,8 @@ public class ProfileManager {
                 NpcProfile profile = Expo.getGson().fromJson(reader, NpcProfile.class);
                 profile.init();
                 profiles.put(profile.getId(), profile);
+            } catch (JsonSyntaxException ex) {
+                main.getLogger().error("Произошла ошибка при загрузке профия NPC в файле " + file.getName());
             }
         }
     }

@@ -1,5 +1,6 @@
 package ru.dragonestia.expo.paragraph;
 
+import com.google.gson.JsonSyntaxException;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import ru.dragonestia.expo.Expo;
@@ -38,6 +39,8 @@ public class ParagraphManager {
             try(FileReader reader = new FileReader(file)){
                 Paragraph paragraph = Expo.getGson().fromJson(reader, Paragraph.class);
                 paragraphs.put(paragraph.getId(), paragraph);
+            } catch (JsonSyntaxException ex) {
+                main.getLogger().error("Произошла ошибка при загрузке главы в файле " + file.getName());
             }
         }
     }
