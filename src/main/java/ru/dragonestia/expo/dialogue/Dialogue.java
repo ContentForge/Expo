@@ -13,7 +13,7 @@ import ru.dragonestia.expo.player.PlayerData;
 public class Dialogue {
 
     private String id;
-    @Setter private String text = null;
+    @Setter private String[] text = null;
     @Setter private DialogueButton[] buttons = new DialogueButton[0];
     @Setter private String[] conditions = new String[0];
 
@@ -38,7 +38,7 @@ public class Dialogue {
         sendToPlayer(playerData, sender, null, false, text);
     }
 
-    public void sendToPlayer(PlayerData playerData, DialogueSender sender, String quote, boolean replied, String text){
+    public void sendToPlayer(PlayerData playerData, DialogueSender sender, String quote, boolean replied, String[] text){
         Player player = playerData.getPlayer();
 
         SimpleForm form = new SimpleForm(sender.getNpcName());
@@ -49,7 +49,7 @@ public class Dialogue {
 
         if(text != null){
             if(quote != null) form.addContent("\n");
-            form.addContent("§2§l"+sender.getNpcName()+"§f >> §r"+format(text, player, sender)+"§r\n");
+            form.addContent("§2§l"+sender.getNpcName()+"§f >> §r"+format(String.join("\n ", text), player, sender)+"§r\n");
         }
 
         form.addContent("\n\n\n\n");

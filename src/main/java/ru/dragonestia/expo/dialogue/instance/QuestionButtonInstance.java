@@ -18,7 +18,7 @@ public class QuestionButtonInstance extends ButtonInstance {
                 sender,
                 text,
                 true,
-                args.length == 0? null : Dialogue.format(String.join(" ", args), playerData.getPlayer(), sender)
+                args.length == 0? null : new String[]{Dialogue.format(String.join(" ", args), playerData.getPlayer(), sender)}
         );
     }
 

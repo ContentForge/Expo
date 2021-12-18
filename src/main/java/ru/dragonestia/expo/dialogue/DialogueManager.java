@@ -80,7 +80,7 @@ public class DialogueManager implements Listener {
         if(!file.exists()) file.createNewFile();
 
         Dialogue dialogue = new Dialogue( "example_dialogue");
-        dialogue.setText("Какой-то текст");
+        dialogue.setText(new String[]{"Какой-то текст", "Другая строка текста"});
         dialogue.setButtons(new DialogueButton[]{new DialogueButton()});
         dialogue.setConditions(new String[]{"test 1 2 3"});
 
