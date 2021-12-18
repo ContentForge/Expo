@@ -114,7 +114,7 @@ public class NpcCommand extends Command {
                 .addButton("Изменить имя", ImageType.PATH, "textures/items/name_tag", (p, b) -> sendNameForm(p, profile))
                 .addButton("Изменить скин", ImageType.PATH, "textures/ui/dressing_room_skins", (p, b) -> {
                     profile.setSkin(p.getSkin());
-                    p.sendMessage("§eСкин был успешно изменен!");
+                    sendEditProfileForm(p, profile);
                 }).addButton("Управление диалогами", ImageType.PATH, "textures/ui/chat_send", (p, b) -> sendDialoguesForm(p, profile))
                 .addButton("Сохранить", (p, b) -> {
                     main.getProfileManager().saveProfile(profile);
