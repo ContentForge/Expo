@@ -34,7 +34,6 @@ public class Product {
         ArrayList<SelectableElement> countList = new ArrayList<>();
         boolean canNext = true;
         for(int count: COUNT_ARR){
-            boolean cantGet = false;
             int currentPrice = count * basePrice;
             String currentText = (count * pattern.getCount()) + "шт за "+ economyInstance.getMoneyFormat(currentPrice);
             if(canNext){
@@ -42,13 +41,14 @@ public class Product {
                     if(inv.canAddItem(pattern.toItem(count))){
                         countList.add(new SelectableElement("§2§l" + currentText, count));
                         continue;
+                    }else {
+                        countList.add(new SelectableElement("§4§l" + currentText + "§4[Не поместится в инвентарь]", null));
+                        continue;
                     }
-                    cantGet = true;
                 }
                 canNext = false;
-                countList.add(new SelectableElement("§4§l" + currentText + (cantGet? "§4[Не поместится в инвентарь]" : ""), null));
             }
-
+            countList.add(new SelectableElement("§4§l" + currentText, null));
         }
 
         form.addElement("Вы собираетесь купить §3"+pattern.getRuName().replaceAll("§.", "")+"§f по цене §b"+economyInstance.getMoneyFormat(basePrice)+"§f за §b"+pattern.getCount()+"шт§f.")
@@ -90,9 +90,8 @@ public class Product {
                     continue;
                 }
                 canNext = false;
-                countList.add(new SelectableElement("§4§l" + currentText, null));
             }
-
+            countList.add(new SelectableElement("§4§l" + currentText, null));
         }
 
         form.addElement("Вы собираетесь продать §3"+pattern.getRuName().replaceAll("§.", "")+"§f по цене §b"+economyInstance.getMoneyFormat(basePrice)+"§f за §b"+pattern.getCount()+"шт§f.")
