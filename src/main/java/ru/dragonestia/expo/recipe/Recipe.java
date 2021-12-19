@@ -5,10 +5,7 @@ import cn.nukkit.item.Item;
 import lombok.Getter;
 import lombok.Setter;
 import ru.contentforge.formconstructor.form.CustomForm;
-import ru.contentforge.formconstructor.form.element.Button;
-import ru.contentforge.formconstructor.form.element.Dropdown;
-import ru.contentforge.formconstructor.form.element.ImageType;
-import ru.contentforge.formconstructor.form.element.SelectableElement;
+import ru.contentforge.formconstructor.form.element.*;
 import ru.dragonestia.expo.Expo;
 import ru.dragonestia.expo.item.ItemDataDictionary;
 import ru.dragonestia.expo.player.PlayerData;
@@ -63,8 +60,7 @@ public class Recipe {
             if (constCount == 1) {
                 for (ItemPattern pattern : cRegs) {
                     boolean hasItem = inv.contains(pattern.toItem());
-                    sb.append("\n §f- §l§").append(hasItem ? "2" : "4").append(pattern.getRuName()).append("§r ")
-                            .append(hasItem ? "2" : "4").append(pattern.getCount()).append("шт§f");
+                    sb.append("\n §f- §l§").append(hasItem ? "2" : "4").append(pattern.getRuName()).append("(").append(pattern.getCount()).append("шт)§f");
 
                     if (!hasItem) canCraftNext = false;
                 }
@@ -79,7 +75,7 @@ public class Recipe {
                 }
 
                 if(canCraftNext){
-                    list.add(new SelectableElement("Количество: §l§4" + (cResult.getCount() * constCount) + "шт", constCount));
+                    list.add(new SelectableElement("Количество: §l§2" + (cResult.getCount() * constCount) + "шт", constCount));
                     continue;
                 }
             }
@@ -91,7 +87,7 @@ public class Recipe {
         if(error != null) form.addElement("§l§4" + error);
         form.addElement(sb.toString());
 
-        form.addElement("count", new Dropdown("Количество", list));
+        form.addElement("count", new StepSlider("Количество", list));
 
         if(data.getPlayer().isOp()){
             form.addElement("§2ID рецепта: §l"+id);
@@ -102,7 +98,7 @@ public class Recipe {
         }
 
         form.setHandler((p, response) -> {
-            Integer count = response.getDropdown("count").getValue().getValue(Integer.class);
+            Integer count = response.getStepSlider("count").getValue().getValue(Integer.class);
             if(count == null){
                 sendToPlayer(data, workbench, "Недостаточно ресурсов для создания данного рецепта");
                 return;
@@ -110,7 +106,7 @@ public class Recipe {
 
             Item finalItem = cResult.toItem(count);
 
-            if(inv.canAddItem(finalItem)){
+            if(!inv.canAddItem(finalItem)){
                 sendToPlayer(data, workbench, "Недостаточно места в инвентаре для нового предмета");
                 return;
             }
