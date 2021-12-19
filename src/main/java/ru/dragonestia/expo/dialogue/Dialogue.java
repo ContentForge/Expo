@@ -4,6 +4,7 @@ import cn.nukkit.Player;
 import lombok.Getter;
 import lombok.Setter;
 import ru.contentforge.formconstructor.form.SimpleForm;
+import ru.contentforge.formconstructor.form.element.Button;
 import ru.dragonestia.expo.Expo;
 import ru.dragonestia.expo.condition.ConditionManager;
 import ru.dragonestia.expo.event.DialogueOpenEvent;
@@ -61,7 +62,9 @@ public class Dialogue {
         for(DialogueButton button: buttons){
             if(!button.handleConditions(playerData)) continue;
 
-            form.addButton(button.generateButton(playerData, sender, this));
+            Button b = button.generateButton(playerData, sender, this);
+            if(b == null) continue;
+            form.addButton(b);
         }
 
         if(!replied){

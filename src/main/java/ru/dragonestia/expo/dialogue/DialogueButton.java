@@ -22,12 +22,16 @@ public class DialogueButton {
         String[] args = action.split(" ", 2);
         ButtonInstance buttonInstance = dialogueManager.getButtonInstance(args[0]);
 
+        if(buttonInstance == null) return null;
+
         Player player = playerData.getPlayer();
         try {
             Button override = buttonInstance.getOverrideButton(playerData, sender, dialogue, Dialogue.format(text, playerData.getPlayer(), sender), args.length > 1? args[1].split(" ") : new String[0]);
             if(override != null) return override;
         } catch (DialogueError ex){
             player.sendMessage("§c[ERROR] " + ex.getMessage());
+        } catch (NullPointerException ex){
+            return null;
         }
 
         return new Button(
